@@ -1,0 +1,105 @@
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;  
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: #8d8d8d;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid rgb(78, 80, 78);
+    border-radius: 10px;
+}
+
+nav ul li:hover
+{ 
+background-color: rgb(66, 66, 66);
+}
+nav ul li a{ 
+    color: white;
+    text-decoration: none;
+}
+#active{
+    border-color: rgb(255, 0, 0);
+}
+
+header{
+    background-color: #c4c4c4;
+    padding: 10px;
+}
+
+footer{
+    padding: 10px;
+    margin: 0;
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(238, 38, 12);
+}
+
+footer p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.logo{
+    border: 2px solid black;
+    
+}
+
+.animals{
+   border: 5px solid white;
+    width: 30%;
+    margin-right: 35%;
+    margin-left:35%;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+}
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+}
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+}
+.corvids{
+    border: 5px solid rgb(81, 82, 81);
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.lamb1{
+    float: left;
+    border: 5px solid rgb(238, 37, 11);
+}
+.lamb2{
+    
+    float:right;
+    border: 5px solid rgb(226, 10, 10);
+}
+.maxdisplay{
+    max-height: 350px;
+    overflow: auto;
+}
+.calf{
+    margin-left: 50%;
+    border: 5px dashed rgb(201, 12, 12);
+}
+.cow{
+    margin-right: 50%;
+    border: 5px dashed rgb(228, 54, 10);
+}
+    
